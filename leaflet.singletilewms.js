@@ -3,9 +3,13 @@
  * This is great for layers that don't do well with being sliced into tiles,
  * e.g. computationally expensive layers, layers with labels or icons that get cut off, etc.
  * This was originally authored by fnicollet      https://gist.github.com/fnicollet/5764080
+ * 
  * My own contributions:
  * - setParams() method added
  * - setOpacity() method overridden, so it does the image swap, updating the opacity immediately
+ *
+ * Greg Allensworth   <greg.allensworth@gmail.com>
+ * No license, use as you will, kudos welcome but not required, etc.
  */
 
 
