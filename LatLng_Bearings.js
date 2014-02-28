@@ -8,7 +8,8 @@
  *     var howfar   = (here.distanceTo(there) / 1609.34).toFixed(2);
  *     alert("San Francisco is " + howfar + " miles, to the " + whichway );
  * 
- * As usual, this is open/free, no license, etc.
+ * Greg Allensworth   <greg.allensworth@gmail.com>
+ * No license, use as you will, kudos welcome but not required, etc.
  */
 
 
