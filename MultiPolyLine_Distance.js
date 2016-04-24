@@ -39,7 +39,7 @@ L.Polyline.prototype.calculateClosestVertexAndDistance = function (targetlatlng)
     for (var vi=0, vl=verts.length; vi<vl; vi++) {
         var d = verts[vi].distanceTo(targetlatlng);
         if (d >= closest_meters) continue;
-        closest_latlng = path[vi];
+        closest_latlng = verts[vi];
         closest_meters = d;
     }
 
